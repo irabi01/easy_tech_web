@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*=========================== home style ===========================*/
+.home{
+  background:#191919;
+  padding-top:150px;
+  padding-bottom: 250px;
+}
+.home h1{
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*========================= quotation style =========================*/
+.quotation{
+  background: #3399ff;
+  color: #fff;
+  padding: 100px 0;
+}
+.quotation .w3-card-4{
+  margin-top: -170px;
+  background: #fff;
+  color: #000;
+  padding: 50px 0px;
+  border-radius: 10px;
+}
+.quotation .w3-card-4 h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+/*=========================== about style ===========================*/
+.about {
+  padding: 200px 0px;
+}
+.about .about_company h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.about .about_company .about_line{
+  width: 70px;
+  height: 3px;
+  background: #3399ff;
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+.about .about_description{
+  text-align: center;
+}
+.about .about_description p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*============================ services style ============================*/
+.services{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+  background-attachment: fixed;
+}
+.services h1{
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.services .service_container{
+  background: #333;
+  color: #fff;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+.services .service_container h2{
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.services .service_container h3{
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.services .service_line{
+  width: 200px;
+  height: 3px;
+  background: #fff;
+  margin-left:50.1%;
+}
+.services .service_line_duara{
+  width: 30px;
+  height: 30px;
+  background: #333;
+  border-radius: 100%;
+  margin-left:50%;
+  margin-top: -15px;
+}
+/*======================== another_quotation style ========================*/
+.another_quotation{
+  padding: 100px 0px;
+}
+.another_quotation h1{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.another_quotation h2{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-left: 40%;
+}
+
+
+/*============================= skills style =============================*/
+.skills{
+  background: #3399ff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 200px 0px;
+}
+.skills .skill_heading h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.skills .skill_heading .skill_heading_line{
+  width: 70px;
+  height: 3px;
+  background: #fff;
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+.skills .skills_type{
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+.skills .skills_type span{
+  text-align: left;
+}
+
+
+/*======================== two_side_div style ========================*/
+.two_side_div{
+  background: #333;
+  width: 100%;
+}
+.two_side_div .side_left{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 50%;
+  color: #fff;
+  border: none;
+  padding: 200px 0px;
+}
+.two_side_div .side_left h2{
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.two_side_div .side_right{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/bg3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 50%;
+  color: #fff;
+  border: none;
+  padding: 200px 0px;
+}
+.two_side_div .side_right:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("../images/bg3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  width: 50%;
+  color: #fff;
+  border: none;
+  padding: 200px 0px;
+  cursor: pointer;
+  transition-delay: 1s;
+}
+.two_side_div .side_right h2{
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/*=========================== projects style ===========================*/
+.projects{
+  padding: 100px 0px;
+}
+.projects h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects .project_line{
+  width: 200px;
+  height: 3px;
+  background: #3399ff;
+  margin-left:50.1%;
+}
+.projects .project_line_duara{
+  width: 30px;
+  height: 30px;
+  background: #3399ff;
+  border-radius: 100%;
+  margin-left:50%;
+  margin-top: -15px;
+}
+
+/*========================= lets_talks style =========================*/
+.lets_talks{
+  padding: 100px 0px;
+  background: #3399ff;
+  color: #fff;
+  text-align: center;
+}
+.lets_talks h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.lets_talks a.lets_talk_button{
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  border: none;
+  text-decoration: none;
+}
+
+
+/*========================= our_clients style =========================*/
+.our_clients{
+  padding: 100px 0px;
+}
+.our_clients h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.our_clients .clients_line{
+  width: 200px;
+  height: 3px;
+  background: #3399ff;
+  margin-left:50.1%;
+}
+.our_clients .clients_line_duara{
+  width: 30px;
+  height: 30px;
+  background: #3399ff;
+  border-radius: 100%;
+  margin-left:50%;
+  margin-top: -15px;
+}
+
+
+/*======================== happy_clients style ========================*/
+.happy_clients{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)),url("../images/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  border: none;
+  padding: 200px 0px;
+  text-align: center;
+}
+.happy_clients i{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 100%;
+  padding-top: 30px;
+  /* padding-left: 30px; */
+  align-items: center;
+  font-size: 50px;
+}
+.happy_clients h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.happy_clients h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+
+/*========================== footer style ==========================*/
+.footer{
+  background: #000;
+  color: #fff;
+  padding: 100px 0px;
+  text-align: center;
+}
+.footer p{
+  color: #fff;
+}
